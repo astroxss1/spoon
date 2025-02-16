@@ -1,0 +1,119 @@
+.greetings {
+    background-image: url(../../img/greetings/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 30px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    transition: transform 0.25s;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.nav {}
+
+.nav__list {
+    display: flex;
+    color: white;
+    column-gap: 40px;
+    align-items: center;
+}
+
+.nav__item a {
+    font-family: var(--fontLF);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #fff;
+    transition: transform 0.25s;
+}
+
+.nav__item a:hover {
+    color: #dddddd;
+    transform: scale(1.1);
+}
+
+.square {
+    background-color: white;
+    width: 4px;
+    height: 4px;
+}
+
+.greetings__content {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 148px;
+}
+
+.greetings__title {
+    font-weight: 700;
+    font-size: 71px;
+    line-height: 110%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #fff;
+    font-family: var(--fontLF);
+    max-width: 460px;
+}
+
+
+.greetings__text {
+    font-family: var(--fontIBM);
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 185%;
+    text-align: center;
+    color: #fff;
+    max-width: 536px;
+}
+
+.greetings__btn {
+    margin: 34px;
+}
+
+.nav__item:last-child {
+    border: 2px solid #fff;
+    border-radius: 4px;
+    padding: 11px 17px;
+    transition: transform 0.25s;
+}
+
+.nav__item:last-child:hover {
+    border: 2px solid #dddddd;
+    border-radius: 4px;
+    padding: 11px 17px;
+    transform: scale(1.1);
+}
+
+.btn {
+    background-color: var(--colorGreen);
+    border-radius: 4px;
+    width: 160px;
+    height: 60px;
+    padding: 15px 27px;
+    border: none;
+    font-family: var(--fontLF);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    transition: transform 0.25s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
