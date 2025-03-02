@@ -29,3 +29,40 @@ a {
 li {
     list-style: none;
 }
+
+.info {
+    color: #999;
+    font-weight: 120;
+    font-size: 24px;
+    line-height: 150%;
+    font-family: var(--fontLF);
+}
+
+.btn {
+    background-color: var(--colorGreen);
+    border-radius: 4px;
+    width: 160px;
+    height: 60px;
+    padding: 15px 27px;
+    border: none;
+    font-family: var(--fontLF);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    transition: transform 0.25s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.info span {
+    font-family: var(--fontLF);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    color: #000;
+}
