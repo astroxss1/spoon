@@ -1,0 +1,27 @@
+.advert {
+    margin-top: 120px;
+}
+
+.advert__container {
+    max-width: 1380px;
+    margin: 0 auto;
+}
+
+.advert__info {
+    max-width: 685px;
+}
+
+.info {}
+
+
+.advert__link {
+    margin-top: 33px;
+}
+
+.advert__content {
+    margin-top: 115px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}

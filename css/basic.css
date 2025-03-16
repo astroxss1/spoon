@@ -66,3 +66,13 @@ li {
     line-height: 150%;
     color: #000;
 }
+
+.link {
+    font-family: var(--fontIBM);
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 164%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #5ab963;
+}
