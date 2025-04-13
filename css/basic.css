@@ -7,6 +7,11 @@
     --colorGreen: #5AB963;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -15,11 +20,17 @@ body,
 html {
     height: 100%;
     background-color: #F5F5F5;
+    overflow-x: hidden;
 }
 
 .container {
     max-width: 1178px;
     margin: 0 auto;
+    padding: 0 10px;
+}
+
+img {
+    max-width: 100%;
 }
 
 a {
